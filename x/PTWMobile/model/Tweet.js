@@ -22,7 +22,7 @@ Ext.define('PTWMobile.model.Tweet', {
 		
 		,proxy: {
 			type: 'ajax'
-			,url: '/getTweetsByHash'
+			,url: 'tweets.json' // plug in real twitter API here
 			,limitParam: false
 //			,pageParam: false
 			,startParam: false

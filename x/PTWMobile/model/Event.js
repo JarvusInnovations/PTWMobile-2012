@@ -43,7 +43,7 @@ Ext.define('PTWMobile.model.Event', {
 		
 		,proxy: {
 			type: 'ajax'
-			,url: '/events/json'
+			,url: 'events.json'
 			,limitParam: false
 			,pageParam: false
 			,startParam: false

@@ -32,7 +32,7 @@ Ext.define('PTWMobile.model.Article', {
 		
 		,proxy: {
 			type: 'ajax'
-			,url: '/getNewsFeed'
+			,url: 'news.rss'
 			,limitParam: false
 			,pageParam: false
 			,startParam: false
